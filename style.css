@@ -1,0 +1,110 @@
+body {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    background-color: grey;
+}
+
+/* headings */
+
+.large-heading {
+    font-family: 'Pacifico', cursive;
+    font-size: 4.375rem;
+    line-height: 1.5;
+    color: #7510F7;
+}
+
+.second-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #7510F7;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+.medium-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+}
+.small-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.intro{
+    font-family: 'Merriweather', serif;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+/* Sections */
+.white-section {
+    background-color: #fff;
+    color: #7510F7;
+}
+.color-section {
+    background-color: #7510F7;
+    color: #fff;
+}
+
+/* Containers */
+
+#greeting .container-fluid {
+    padding: 7% 17% 7%;
+    text-align: center;
+}
+
+#title .container-fluid {
+    text-align: center;
+    padding: 3% 7% 7%;
+}
+
+#skill .container-fluid {
+    text-align: center;
+    padding: 7% 5% 7%;
+}
+
+.container-fluid {
+    padding: 7% 17% 7%;
+    text-align: center;
+}
+
+#footer .container-fluid {
+    text-align: center;
+    padding: 7% 5% 7%;
+}
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+  
+.nav-item {
+    padding: 0 18px;
+}
+  
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    
+}
+
+/* td>li {
+    padding: 0 18px;
+    list-style-type: square;
+} */
+.footer-link {
+    padding: 0 18px;
+    text-decoration: none;
+}
